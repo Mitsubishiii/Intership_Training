@@ -13,7 +13,6 @@ The src/ folder contains the reusable components of the project:
 * **data_setup.py**: Prepares DataLoaders. It handles both local image folders and automatic downloads of torchvision datasets like CIFAR-10.
 * **CNN_builder.py**: Defines the TinyVGG architecture for the CNN model.
 * **ViT_builder.py**: Defines the full Vision Transformer architecture (including PatchEmbedding, MSA, MLP, and TransformerEncoder).
-* **.py**: Defines the full Vision Transformer architecture (including PatchEmbedding, MSA, MLP, and TransformerEncoder).
 * **engine.py**: Contains universal training and testing loop functions (train_step, test_step, train).
 * **utils.py**: Utility functions for saving and loading model weight
 
